@@ -95,6 +95,11 @@ a:hover {
     background-size: 280px 280px;
 }
 
+.texture-paper-background{
+    background-color: rgba(179, 31, 72, 0.8);;
+}
+
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -119,7 +124,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
+/*.d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -134,7 +139,7 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
-}
+}*/
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -150,7 +155,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(179, 31, 72, 0.8);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -651,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -680,9 +685,22 @@ p {
     font-size: 11px;
 }
 
+.service-presentation{
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+
+.grey-background{
+    background-color: #414141;
+    padding: 30px;
+    max-width: 50%;
 }
 
 .h1 {
@@ -707,6 +725,50 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+
+.text-decoration{
+    color: rgba(179, 31, 72, 0.8) !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-size-description{
+    font-size: 17px;
+}
+
+.text-size-objective{
+    font-size: 17px;
+}
+
+.end-text{
+    font-size: 20px;
+}
+
+.style{
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.style-decoration{
+    color: black;
+}
+
+.opinion-text{
+    font-size: 20px;
+}
+
+.title-decoration-objective{
+    color: #F3976C;
+    font-size: 25px;
+
+}
+
+.realization-text{
+    font-size: 25px;
+    max-width: 500px;
+    margin: auto;
 }
 
 h3 {
@@ -753,7 +815,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #414141;
     padding: 40px 40px 40px 40px;
 }
 
@@ -770,9 +832,9 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
+/*.bgc-atomic-tangerine {
     background-color: #F3976C;
-}
+}*/
 
 .tc-white {
     color: #F3976C!important;
