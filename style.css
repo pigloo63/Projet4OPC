@@ -373,6 +373,22 @@ a:hover {
     z-index: 2;
 }
 
+.text-modification{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.explicatif-text-modification{
+    font-size: 15px;
+}
+
+.contact-text{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
